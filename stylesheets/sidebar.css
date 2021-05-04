@@ -1,0 +1,52 @@
+nav{
+	position: fixed;
+	top: 0;
+	left: 0;
+
+	width: 300px;
+	padding: 14px 15px 10px 36px;
+	margin: 51px 0 0 11px;
+
+	opacity: 0.5;
+	transition: all 0.3s ease;
+}
+
+nav:hover{
+	opacity: 1;
+}
+
+nav a {
+	text-decoration: none;
+}
+
+nav ul{
+	margin: 0;
+}
+
+nav li{
+	font-size: 16px;
+	line-height:23px;
+	color: rgba(0, 0, 0, 0.8);
+	font-weight: bold;
+	margin-top: 12px;
+}
+
+nav > ul > li:first-child {
+	font-weight: bold;
+}
+
+nav ul ul li {
+	color: rgba(0, 0, 0, 0.4);
+	margin-left: 10px;
+}
+
+nav ul ul ul li {
+    color: rgba(0, 0, 0, 0.3);
+    margin-left: 20px;
+}
+
+@media (max-width: 1539px){
+	nav{
+		display: none;
+	}
+}
